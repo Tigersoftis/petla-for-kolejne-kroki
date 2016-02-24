@@ -1,0 +1,27 @@
+/*Petle for uzywamy praktycznie zawsze, gdy znamy ilosc danych, 
+jaka mamy wczytac, wypisac lub zmienic. Jesli chcemy policzyc srednia 
+z określonej liczby liczb, wczytać określoną ilość danych z pliku lub 
+wypisać określoną ilość danych na ekran, pętla for jest do tego po prostu idealna. */
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+cout << "Kroki: ";
+for (int krok = 0; krok < 10; krok++)
+/*W nawiasie kolejne elementy rozdzielone srednikiem to:
+- nadawanie poczatkowych wartosci zmiennym (int ... - możliwe jest 
+  utworzenie tymczasowej zmiennej, która będzie widoczna tylko 
+  i wyłącznie wewnątrz pętli for)
+- warunek konczący petle for 
+- zwiekszenie (lub zmniejszenie) licznika petli 
+  ++ to operator inkrementacji, ++ = +1, -- = -1 */
+	{
+	cout << krok << " ";	
+	}
+cout << endl << endl;
+
+system ("pause");
+	return 0;
+}		
